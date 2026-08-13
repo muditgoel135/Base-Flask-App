@@ -13,14 +13,13 @@
 
 <body>
     <header>
-        <h1>Welcome to My Website</h1>
-        <!-- <nav>
+        <h1>Welcome to My Website, {{ username }}!</h1>
+        <nav>
             <ul>
-                <li><a href="/">Home</a></li>
-                <li><a href="/about">About</a></li>
-                <li><a href="/contact">Contact</a></li>
+                <li><a href="{{ url_for('logout') }}">Logout</a></li>
+                <li><a href="{{ url_for('delete_account') }}">Delete Account</a></li>
             </ul>
-        </nav> -->
+        </nav>
     </header>
 
     <main>
