@@ -120,9 +120,9 @@ def signup():
             flash("Please enter both username and password.", "error")
             return render_template("signup.html")
 
-        if not username in [
-            user.username for user in User.query.with_entities(User.username).all()
-        ]:
+        existing_user = User.query.filter_by(username=username).first()
+
+        if not existing_user:
             user = User(username=username, password=generate_password_hash(password))
             with app.app_context():
                 db.session.add(user)
