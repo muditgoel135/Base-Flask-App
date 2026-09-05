@@ -103,7 +103,7 @@ Base-Flask-App/
 
 ## AI Disclosure
 
-Minimal AI assistance was used in the creation of the main application (mainly autofills and inline suggestions). This README is AI-generated.
+Minimal AI assistance was used in the creation of the main application (mainly autofills and inline suggestions). AI was significantly used for finding errors, but all bug fixes are human-made. This README is AI-generated.
 
 ## Note
 
