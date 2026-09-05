@@ -61,7 +61,7 @@ A minimal starter Flask application with user authentication (signup, login, log
 Run the app:
 
 ```bash
-python app.py
+flask run
 ```
 
 Then open <http://127.0.0.1:5000> in your browser.
