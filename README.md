@@ -20,7 +20,7 @@ A minimal starter Flask application with user authentication (signup, login, log
 1. Clone the repository:
 
    ```bash
-   git clone https://github.com/<your-username>/Base-Flask-App.git
+   git clone https://github.com/muditgoel135/Base-Flask-App.git
    cd Base-Flask-App
    ```
 
@@ -65,6 +65,7 @@ python app.py
 ```
 
 Then open <http://127.0.0.1:5000> in your browser.
+If the host or port has been changed in `.env`, then open <http://{HOST}:{PORT}>.
 
 The SQLite database (`instance/base_app.db`) is created automatically on first run. Tables are created when the app starts.
 
@@ -103,7 +104,7 @@ Base-Flask-App/
 
 ## AI Disclosure
 
-Minimal AI assistance was used in the creation of the main application (mainly autofills and inline suggestions). AI was significantly used for finding errors, but all bug fixes are human-made. This README is AI-generated.
+Minimal AI assistance was used in the creation of the main application (mainly autofills and inline suggestions). AI was significantly used for finding errors, but all bug fixes are human-made. Most commit messages are AI-generated. This README is AI-generated.
 
 ## Note
 
