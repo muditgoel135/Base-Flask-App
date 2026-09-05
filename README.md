@@ -12,7 +12,7 @@ A minimal starter Flask application with user authentication (signup, login, log
 
 ## Prerequisites
 
-- Python 3.8+
+- Python 3.10+
 - pip
 
 ## Installation
@@ -108,4 +108,4 @@ Minimal AI assistance was used in the creation of the main application (mainly a
 
 ## Note
 
-This is a base template. Passwords are stored in plain text and no `CREATE TABLE` migrations are used, so it is intended as a starting point for development rather than for production deployment.
+This is a base template. Passwords are hashed with Werkzeug (via `generate_password_hash`) and no `CREATE TABLE` migrations are used, so it is intended as a starting point for development rather than for production deployment.
